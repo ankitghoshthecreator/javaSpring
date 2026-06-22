@@ -6,6 +6,7 @@ import org.springframework.stereotype.Repository;
 
 // 1. Add the @Repository annotation to tell Spring this is a database component.
 // 2. Make this interface extend JpaRepository<Note, Long> (Note is the entity, Long is the type of the ID).
-public interface NoteRepository {
+@Repository
+public interface NoteRepository  extends JpaRepository<Note, Long>{
 
 }
