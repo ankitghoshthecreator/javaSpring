@@ -54,6 +54,12 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<dependency>
+            <groupId>me.paulschwarz</groupId>
+            <artifactId>spring-dotenv</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+
 		<!-- Database: Hibernate + Spring Data JPA -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
